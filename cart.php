@@ -1,10 +1,10 @@
 <?php
     include("connect.php");
     session_start();
-    if(isset($_SESSION["userid"])==null){
-        header("location:index.php");
-    }
-    else{
+    // if(isset($_SESSION["userid"])==null){
+    //     header("location:index.php");
+    // }
+    // else{
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -155,5 +155,5 @@
 
 </html>
 <?php
-    }
+    // }
 ?>
